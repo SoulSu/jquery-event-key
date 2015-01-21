@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Jquery-event-key by SoulSu</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Jquery-event-key</h1>
+        <p>Return keyboard press key value</p>
+        <p class="view"><a href="https://github.com/SoulSu/jquery-event-key">View the Project on GitHub <small>SoulSu/jquery-event-key</small></a></p>
+        <ul>
+          <li><a href="https://github.com/SoulSu/jquery-event-key/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/SoulSu/jquery-event-key/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/SoulSu/jquery-event-key">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="jquery-event-key" class="anchor" href="#jquery-event-key" aria-hidden="true"><span class="octicon octicon-link"></span></a>jquery-event-key</h1>
+
+<p>返回 键盘事件触发时对应的按键值</p>
+
+<h3>
+<a id="使用方法" class="anchor" href="#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95" aria-hidden="true"><span class="octicon octicon-link"></span></a>使用方法</h3>
+
+<div class="highlight highlight-js"><pre>$(<span class="pl-s1"><span class="pl-pds">"</span>#test<span class="pl-pds">"</span></span>).onkeydown(<span class="pl-st">function</span>(<span class="pl-vpf">event</span>){
+    <span class="pl-s">var</span> realKey <span class="pl-k">=</span> $.realKey(<span class="pl-s3">event</span>);
+    <span class="pl-en">console</span><span class="pl-s3">.log</span>(realKey);
+});</pre></div>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/SoulSu">SoulSu</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
